@@ -12,16 +12,23 @@ export default function Home() {
 
       <main>
         <h1 className="title">
+          Next js tutor
+        </h1>
+        <br />
+
+        <h4>
+          <Link href="/profile">
+            <a>Profile</a>
+          </Link>
+        </h4>
+
+
+        <h4>
           Read{' '}
           <Link href="/posts/first-post">
             <a>this page!</a>
           </Link>
-        </h1>
-
-
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>
+        </h4>
 
 
       </main>
